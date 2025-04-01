@@ -2,19 +2,22 @@
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const AboutSection = () => {
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
-          <div className="w-full md:w-1/2">
-            <div className="relative">
-              <div className="absolute -top-4 -left-4 w-64 h-64 bg-maroon rounded-full opacity-20"></div>
+          <div className="w-full md:w-1/2 flex justify-center">
+            <div className="relative flex items-center justify-center">
+              {/* Maroon circle background */}
+              <div className="absolute w-72 h-72 bg-maroon rounded-full opacity-20"></div>
+              {/* User image */}
               <img 
-                src="https://images.unsplash.com/photo-1555597673-01ef3bafd98e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" 
+                src="/lovable-uploads/7462e63c-0e0e-4080-ab33-b6381b933826.png" 
                 alt="Dave Hermino" 
-                className="w-full h-auto rounded-lg shadow-xl relative z-10"
+                className="w-64 h-64 object-cover rounded-full relative z-10"
               />
             </div>
           </div>
