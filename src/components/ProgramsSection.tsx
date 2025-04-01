@@ -7,19 +7,19 @@ const programs = [
   {
     title: 'Kids Classes',
     description: 'Ages 5-12. Build confidence, coordination, and discipline in a fun, safe environment.',
-    image: 'https://images.unsplash.com/photo-1599506146144-bf04518bbfc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+    image: '/lovable-uploads/af6aae9b-366a-4f60-a6e7-d3cc0ba07ea8.png',
     link: '/programs/kids'
   },
   {
     title: 'Teen Classes',
     description: 'Ages 13-17. Develop strength, self-defense skills, and mental fortitude.',
-    image: 'https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80',
+    image: '/lovable-uploads/d690be50-43ef-49b4-a902-81134bd82afd.png',
     link: '/programs/teens'
   },
   {
     title: 'Adult Classes',
     description: 'Ages 18+. Improve fitness, learn self-defense, and reduce stress through martial arts training.',
-    image: 'https://images.unsplash.com/photo-1508994923184-e069da8b5a8e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+    image: '/lovable-uploads/43dd4e71-7696-4b6f-8782-50af312fc3b4.png',
     link: '/programs/adults'
   },
 ];
